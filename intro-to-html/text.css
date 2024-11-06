@@ -1,0 +1,117 @@
+
+p{
+    font-family: Arial;
+    margin-bottom: 20px;
+    margin-top: 0;
+  }
+
+  .apple-text{
+    font-size: 14px;
+    margin-bottom: 50px;
+    background-color: rgb(227,65,64);
+    color:white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    
+
+  }
+  .video-title{
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    width: 300px;
+    line-height: 24px;
+  }
+  .video-stats{
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+  }
+  .video-author{
+    color: rgb(96,96,96);
+    font-size: 14px;
+    font-family: Arial;
+  }
+
+  .video-description{
+    color: rgb(96,96,96);
+    font-size: 14px;
+    width: 300px;
+    line-height: 22px;
+    margin-bottom: 100px;
+  }
+
+  .span-text:hover{
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+  .tahoma-font{
+    font-family: Tahoma;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .deal-p{
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .span-sale{
+    color: red;
+    font-size: 20px;
+    font-family: Arial;
+    font-style: italic;
+    
+  }
+  
+
+  .span-b{
+    margin-top: 0;
+    color: gray;
+
+  }
+  .span-html{
+    font-weight: bold;
+    font-size: 19px;
+    margin-bottom: 0;
+  }
+
+  .html-des{
+    font-family: verdana;
+    width: 300px;
+    font-size: 15px;
+    
+  }
+
+  .get-button{
+    color: white;
+    background-color: green;
+    height: 33px;
+    width: 100px;
+    border: none;
+    border-radius: 6px;
+
+  }
+ 
+  .mod-3{
+    font-family: Montserrat;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 50px;
+    text-align: center;
+
+  }
+
+  .mod-des{
+    font-family: Montserrat;
+    text-align: center;
+    font-size: 35px;
+   
+  }
+  .span-t{
+    cursor: pointer;
+  }
+  .span-t:hover{
+    text-decoration:underline;
+  }

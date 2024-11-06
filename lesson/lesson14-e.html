@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lesson 14e</title>
+    <style>
+      body{
+        height: 3000px;
+        padding-top: 70px;
+      }
+      .header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+
+      }
+      .left{
+        display: flex;
+        align-items: center;
+      }
+      .my-pic{
+        height: 50px;
+        padding-right: 10px;
+        padding-left: 80px;
+      }
+      .right{
+        padding-right: 80px;
+      }
+      .add-button{
+        height: 35px;
+        width: 90px;
+        background-color: #4267B2;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        font-weight: bold;
+      }
+      .message-button{
+        height: 35px;
+        width: 80px;
+        margin-left: 5px;
+        background-color: rgb(212, 212, 212);
+        border: none;
+        border-radius: 5px;
+        font-weight: bold;
+      }
+      .name{
+        font-weight: bold;
+        font-family: arial;
+      }
+      .side-photo{
+        position: fixed;
+        bottom: 0;
+        left: 0px;
+        top: 70px;
+        background-color: rgb(17, 15, 15);
+        width: 75px;
+        
+      }
+      .photo{
+        height: 60px;
+        border-radius: 30px;
+        margin-top: 5px;
+        margin-left: 8px;
+      }
+      .side-info{
+        background-color: rgb(77, 73, 73) ;
+        left: 75px;
+        position: fixed;
+        top: 70px;
+        width: 180px;
+        color: white;
+        font-family: arial;
+        bottom: 0;
+      }
+      .info-content{
+        margin-top: 20px;
+        margin-left: 10px;
+      }
+      .info{
+        margin-top: 20px;
+        margin-left: 10px;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="left">
+        <div>
+          <img class="my-pic" src="/channel-pic/my-channel.jpeg">
+        </div>
+        
+        <div class="name"> Oliver Cat</div>
+      </div>
+      <div class="right">
+        <button class="add-button">Add Friend</button>
+        <button class="message-button">Message</button>
+      </div>
+    </div>
+
+    <div class="side-photo">
+      <div>
+        <img class="photo" src="/channel-pic/channel-1.jpeg">
+      </div>
+      <div>
+        <img class="photo" src="/channel-pic/channel-2.jpeg">
+      </div>
+      <div>
+        <img class="photo" src="/channel-pic/channel-3.jpeg">
+      </div>
+    </div>
+    <div class="side-info">
+      <div class="info">INFO</div>
+      <div class="info-content"># new-videos</div>
+      <div class="info-content"># updates</div>
+      <div class="info-content"># faq</div>
+    </div>
+  </body>
+  </html>

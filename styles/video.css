@@ -1,0 +1,120 @@
+
+
+.thumbnail{
+    width: 100%;
+    cursor: pointer;
+}
+
+
+.video-title{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.video-author,
+.video-stats{
+    font-size: 13px;
+    color: rgb(44, 41, 41);
+}
+.video-author{
+    margin-bottom: 5px;
+}
+
+.video-info-grid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+.video-grid{
+    display: grid;
+    column-gap: 16px;
+    row-gap: 40px;
+    
+    
+}
+@media (max-width:750px){
+    .video-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+    .video-title{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    body{
+        font-size: 14px;
+    }
+}
+@media (min-width:751px) and (max-width:999px){
+    .video-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media (min-width:1000px){
+    .video-grid{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+}
+
+
+
+.profile-picture{
+    width: 36px;
+    border-radius: 25px;
+    
+
+}
+.thumbnail-row{
+    margin-bottom: 8px;
+    position: relative;
+}
+.video-time{
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 8px;
+    right: 5px;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 4px;
+    border-radius: 2px;
+} 
+
+
+.channel-picture{
+    position: relative;
+    
+}
+
+.tooltip-container{
+    position: absolute;
+    display: flex;
+    background-color: white;
+    color:black;
+    padding:10px 10px;
+    transition: 0.15s;
+    opacity: 0;
+    pointer-events: none;
+    border-radius: 5px;
+    
+}
+.channel-picture:hover .tooltip-container{
+    opacity: 1;
+}
+.tooltip-container .details{
+    width: 150px;
+}
+.tooltip-container .author{
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.tooltip-container .subscribers{
+    font-size: 14px;
+}
+.tooltip-container div{
+    padding-right: 5px;
+}
+
